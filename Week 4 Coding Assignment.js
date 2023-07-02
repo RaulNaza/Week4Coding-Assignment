@@ -150,7 +150,7 @@ console.log(aveOfArr([10,20,30,40,50]));
 console.log("-------------------------------------------------------------");
 console.log("Question 11:");
 
-//The greaterThan function will take in two parameters and assess if the first array is greater than the second array through the conditional statement. Using the existing avgOfArr I passe the function as an argument.
+//The greaterThan function will take in two parameters and assess if the first array is greater than the second array through the conditional statement. Using the existing avgOfArr I passed the function as an argument.
 var greaterThan = (avg1,avg2) =>{
     if (avg1 > avg2){
         return true;
@@ -165,8 +165,8 @@ console.log(greaterThan(aveOfArr([10,20,45,60,12]),aveOfArr([60,10,5,3,5])));
 console.log("-------------------------------------------------------------");
 console.log("Question 12:");
 
-var isHotOutside = false;
-var moneyInPocket = 1.00;
+var isHotOutside = true;
+var moneyInPocket = 12.00;
 
 
 //Functon willBuyDrink takes in two parameters and through the conditional statement assess if bothg the temp and money parameters meed the condition.
@@ -184,7 +184,7 @@ console.log(willBuyDrink(isHotOutside,moneyInPocket));
 console.log("-------------------------------------------------------------");
 console.log("Question 13:");
 
-//This function tests for the boolen values that will be passed through to the temp and available parameters.
+//This function tests for the boolean values that will be passed through to the temp and available parameters.
 // Within the function goingToBeach I created some conditional statements to test for each variables values.
 // Depending on the value for each argument being passed through you will get a different response.
 
